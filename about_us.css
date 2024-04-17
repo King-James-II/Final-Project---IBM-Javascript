@@ -1,0 +1,137 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F09830;
+    color: white;
+    padding: 10px; /* Add padding for spacing */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-center {
+    display: flex;
+    flex: 1; /* Allow navbar-center to take up remaining space */
+    justify-content: center; /* Center items horizontally */
+    color: white;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+body {
+    background-image: url('travel_background.jpg');
+    background-size: cover;
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.intro {
+    text-align: center;
+    padding: 50px;
+}
+
+.about h1 {
+    font-size: 60px;
+    font-style: bolder;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.25);
+    margin: 0 62% 0 75px;
+}
+
+.about p {
+    text-align: left;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 16px;
+    margin: 15px 75px 15px 75px;
+}
+
+.team {
+    padding-left:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.team h2 {
+    font-size: 35px;
+    color:white;
+}
+
+.employee-card {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-card h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.employee-card button {
+    font-style: italic;
+    color: #666;
+    border-radius: 10px;
+    color:white;
+    background-color: rgba(95, 192, 132, 0.918);
+    padding: 5px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:white;
+}
+
+.contact h1 {
+    flex: 0 0 30%; /* Adjust the width of the header */
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:white;
+}
+
+.contact input, textarea{
+    background-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+.contact_form {
+    flex: 0 0 60%; /* Adjust the width of the form */
+}
+
+.contact button {
+    color: white;
+    background-color: rgb(64, 117, 196);
+    width: 380px;
+    font-size: 16px;
+    border-radius: 10px;
+
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+  }
