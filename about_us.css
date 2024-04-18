@@ -111,6 +111,8 @@ body {
     background-color: rgba(0, 0, 0, 0.25);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     color:white;
+    margin: 0 62% 0 75px;
+    font-size: 60px
 }
 
 .contact input, textarea{
