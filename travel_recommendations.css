@@ -4,6 +4,7 @@
     align-items: center;
     background-color: #F09830;
     color: white;
+    padding: 10px; /* Add padding for spacing */
 }
 
 .navbar-left {
