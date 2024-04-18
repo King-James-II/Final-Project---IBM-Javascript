@@ -119,9 +119,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     font-size: 16px;
 }
-.contact_form {
-    flex: 0 0 60%; /* Adjust the width of the form */
-}
+
 
 .contact button {
     color: white;
