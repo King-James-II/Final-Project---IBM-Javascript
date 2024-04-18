@@ -84,3 +84,14 @@ body {
     font-size: 16px;
     margin: 15px 67% 15px 75px;
 }
+
+#results {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.40);
+    font-size: 16px;
+    margin: 15px 67% 15px 75px;
+}
+
+#results img{
+    width: 500px
+}
